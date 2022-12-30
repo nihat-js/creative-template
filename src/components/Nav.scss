@@ -1,0 +1,43 @@
+.nav-component {
+  background-color: hsl(210, 80%, 30%);
+  padding: 1rem 0;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+
+      .social {
+        img {
+          width: 36px;
+          cursor: pointer;
+        }
+      }
+
+      .brand {}
+
+      .link {
+        display: flex;
+
+        li {
+          padding: .3rem .5rem;
+          border: 1px solid #eee;
+          margin-right: .5rem;
+          font-size: .9rem;
+          cursor: pointer;
+
+          a {
+            color: #fff;
+
+          }
+        }
+
+      }
+    }
+  }
+}
